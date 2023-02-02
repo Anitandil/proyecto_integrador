@@ -1,0 +1,129 @@
+body {
+	background-image: radial-gradient(circle at 41.17% 100.11%, #b4c1c0 0, #a1b9b8 16.67%, #8cb0b2 33.33%, #74a6ac 50%, #5b9ca8 66.67%, #4092a5 83.33%, #2089a3 100%);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#fotoPerfil {
+	-webkit-box-shadow: 6px 6px 15px 6px #010C0A; 
+	box-shadow: 6px 6px 20px 6px #010C0A;
+	padding-top: 5px;
+
+}
+
+footer {
+	text-align: center;
+}
+footer li {
+	color: whitesmoke;
+	text-align: center;
+	font-style: oblique;
+	display: inline-block;
+	padding: 10px;
+}
+p{
+	font-family: Garamond;
+	font-size: 14px;
+}
+h1{
+	text-shadow: 1px 4px 9px #000000;
+}
+h4{
+	font-family: Garamond;
+}
+h5 {
+	font-family: Garamond;
+	font-variant: small-caps;
+	text-align: center;
+	padding-top: 5px;
+	font-weight: 600;
+}
+hr {
+	width:100%; 
+	height:10px;
+	border:1.5px solid black;
+}
+
+.sociales {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sociales li {
+	text-align: center;
+	display: inline-block;
+}
+
+.sociales a{
+	padding: 2px;
+}
+
+#titulo {
+	text-align: center;
+	padding-top: 10px;
+}
+.contactomail {
+	display:none;
+	background-color: rgba(158,200,200,0.9);
+	border-radius: 14px;
+	padding: 5px 5px;
+}
+
+.myModal {
+	display: none; /* Por defecto, estará oculto */
+	position: fixed; /* Posición fija */
+	z-index: 1; /* Se situará por encima de otros elementos de la página*/
+	padding-top: 200px; /* El contenido estará situado a 200px de la parte superior */
+	left: 0;
+	top: 0;
+	width: 100%; /* Ancho completo */
+	height: 100%; /* Algura completa */
+	overflow: auto; /* Se activará el scroll si es necesario */
+	background-color: rgba(0,0,0,0.5); 
+}
+.modal-content {
+	position: relative; /* Relativo con respecto al contenedor -modal- */
+	background-color: rgba(200,230,200,0.9);
+	margin: auto; /* Centrada */
+	padding: 5px;
+	width: 80%;
+	-webkit-box-shadow: 5px 6px 15px 7px #000000; 
+	box-shadow: 5px 6px 15px 7px #000000;
+	-webkit-animation-name: animarsuperior;
+	-webkit-animation-duration: 0.5s;
+	animation-name: animarsuperior;
+	animation-duration: 0.5s
+}
+.formContacto input,
+.formContacto textarea {
+	border-radius: 7px;
+	border: none;
+	height: 30px;
+	padding: 5px 10px;
+}
+
+textarea {
+	height: auto;
+	resize: vertical;
+}
+.negrita {
+	font-weight: 700;
+	font-family: system-ui;
+}
+#contenedor1, #contenedor2 {
+	background-color:  #C5CAD0;
+}
+.accordion-body {
+	background-color:#BAD8DA;
+}
+.accordion-button {
+	background-color:#7CB0AE;
+	font-family: Garamond;
+	font-weight: 600;
+	font-size: 20px;
+} 
+.accordion-header {
+	background-color:#7CB0AE;
+}
