@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!--Metadatos-->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-weidth, initial-scale=1.0">
+  <meta name="author" content="Ana Iñiguez">
   <meta name="description" content="Curriculum Vitae con HTML">
-  <meta name="keywords" content="CV, Edith Ivañez">
+  <meta name="keywords" content="CV, Edith Ivañez,HTML, CSS, JavaScript">
   <title>Cv Edith Ivañez</title>
 
   <!--  Open Graph data (datos que apareceran al compratir en instagram,por ej.)-->
   <meta property="og:title" content="CV Edith Ivañez" />
   <meta property="og:type" content="curriculum" />
-  <meta property="og:url" content=" http://www.example.com" />
-  <meta property="og:image" content=" http://example.com/image.jpg" />
+  <meta property="og:url" content=" https://anitandil.github.io/proyecto_integrador/" />
+  <meta property="og:image" content=" imagenes/fotoperfilnn.jpeg" />
   <meta property="og:description" content="Analista programador Universitario con 5 años de experiencia en análisis y desarrollo de aplicaciones" />
 
   <!-- CSS Boostrap 5 -->
@@ -22,10 +24,11 @@
   <link rel="stylesheet" href="css/estilos.css">
 
   <!--favicon -->
-  <link rel="icon" href="imagenes/favicon.png" type="image/png" href="">
+  <link rel="icon" href="imagenes/favicon.png" type="image/png">
 
   <!--iconos de Bootstrap-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
 </head>
 
 <body>
@@ -53,18 +56,18 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav"> 
         <a class="nav-link" href="#abrirModal" id="navObjetivos" data-bs-toggle="modal" data-bs-target="#modalObjetivos">Perfil</a>
-        <a class="nav-link" href="#botonExperiencia">Experiencia</a>
-        <a class="nav-link" href="#botoneducacion" id="educacion">Educación</a>
+        <a class="nav-link" href="#botonExperiencia" >Experiencia</a>
+        <a class="nav-link" href="#botoneducacion" id="educacion" >Educación</a>
         <a class="nav-link" href="#contactame" id="contactameclick">Contactame</a>
       </div>
     </div>
   </div>
 </nav>
 
-<div class="container my-3">
+<div class="container my-3" id="contenedor">
   <div class="row gx-2">
-    <div class="col-sm-12 col-md-4 py-4" id="contenedor1" >
-      <h5> Información Personal </h5>
+    <div class="col-sm-12 col-md-4 py-4">
+        <h5> Información Personal </h5>
       <hr>
       <table class="table">
         <tbody>
@@ -82,7 +85,7 @@
           </tr>
         </tbody>
       </table>
-
+  
       <h5 id="contactame"> Contacto </h5>
       <table class="table">
         <hr>
@@ -102,11 +105,11 @@
         <h5 id="redessociales"> Redes Sociales </h5>
         <hr>
         <ul class="sociales">
-          <li><a href="https://www.facebook.com/" target="_blank"><img src="imagenes/facebook.png" alt="icono facebook" width="35" height="35"><a></li>
-            <li><a href="https://discord.com/" target="_blank"><img src="imagenes/discord.png" alt="icono discord" width="35" height="35"></a></li>
-            <li><a href=""target="_blank"><img src="imagenes/whatsapp.png" alt="icono whatsapp" width="35" height="35"></a></li>
-            <li><a href="https://www.linkedin.com" target="_blank"><img src="imagenes/linkedin.png" alt="icono linkedIn" width="35" height="35"></a></li>
-            <li><a href="https://github.com/" target="_blank"><img src="imagenes/github.png" alt="icono github" width="35" height="35"></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i><a></li>
+            <li><a href="https://discord.com/" target="_blank"><i class="bi bi-discord"></i> </a></li>
+            <li><a href=""target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+            <li><a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a></li>
           </ul>
         </div>
 
@@ -131,7 +134,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-8 py-4" id="contenedor2">
+      <div class="col-sm-12 col-md-8 py-4">
        <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -243,8 +246,7 @@
 </body>
 
 <footer>
-  <div class="container-fluid" style="background-color: #202229">
-
+  <div class="container-fluid">
     <ul>
       <li>Edith Ivañez</li>
       <li><i class="bi bi-envelope-fill"></i> edithivaniez@gmail.com</li>

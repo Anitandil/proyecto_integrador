@@ -10,12 +10,12 @@ html {
 	-webkit-box-shadow: 6px 6px 15px 6px #010C0A; 
 	box-shadow: 6px 6px 20px 6px #010C0A;
 	padding-top: 5px;
-
 }
 
 footer {
 	text-align: center;
-}
+	background-color: #202229;
+	}
 footer li {
 	color: whitesmoke;
 	text-align: center;
@@ -23,9 +23,10 @@ footer li {
 	display: inline-block;
 	padding: 10px;
 }
+
 p{
 	font-family: Garamond;
-	font-size: 14px;
+	font-size: 1rem;
 }
 h1{
 	text-shadow: 1px 4px 9px #000000;
@@ -45,21 +46,29 @@ hr {
 	height:10px;
 	border:1.5px solid black;
 }
-
+table {
+	padding-left: 2px;
+}
 .sociales {
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .sociales li {
 	text-align: center;
 	display: inline-block;
 }
 
-.sociales a{
-	padding: 2px;
+.sociales i {
+	font-size: 25px;
+	color: black;
+	padding: 3px;
 }
 
+
+.sociales a:hover i {
+	color: #006363;
+}
 #titulo {
 	text-align: center;
 	padding-top: 10px;
@@ -112,9 +121,18 @@ textarea {
 	font-weight: 700;
 	font-family: system-ui;
 }
-#contenedor1, #contenedor2 {
-	background-color:  #C5CAD0;
+
+#contenedor {
+background-color:  #C5CAD0;
 }
+.info {
+	background-color:  #C5CAD0;
+	padding: 5px;
+	order-radius: 7px;
+	border: none;
+
+}
+
 .accordion-body {
 	background-color:#BAD8DA;
 }
