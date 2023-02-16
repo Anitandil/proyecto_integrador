@@ -40,6 +40,7 @@ h5 {
 	text-align: center;
 	padding-top: 5px;
 	font-weight: 600;
+	text-shadow: 1px 4px 9px #000000;
 }
 hr {
 	width:100%; 
@@ -65,10 +66,13 @@ table {
 	padding: 3px;
 }
 
-
 .sociales a:hover i {
-	color: #006363;
+	color: #00a08a;
 }
+.nav-link:hover{
+	color: #34ddba !important;
+}
+
 #titulo {
 	text-align: center;
 	padding-top: 10px;
